@@ -11,7 +11,7 @@ let count_1 = random(0,5);
 let price = new Vue({
     el: ".tile-2",
     data: {
-        image1: "img\image-1.jpg",
+        image1: "img/image-1.jpg",
         header1: "Тостер от Jetbrains",
         text1:  "799руб",
         p1:     "p1.html",
@@ -20,7 +20,7 @@ let price = new Vue({
 let price1 = new Vue({
     el: ".tile-3",
     data: {
-        image2: "img\image-2.jpg",
+        image2: "img/image-2.jpg",
         header2: "Чайник от Valve",
         text2:  "1399руб",
         p2:     "p1.html",
