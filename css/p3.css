@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+body {
+    background-color: black;
+}
+div {
+    display: flex;
+}
+@media screen and (min-width: 800px) {
+    div.header {
+        position: absolute;
+        height: 50px;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        background-color: black;
+    }
+    a.header {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        font-family: 'Open Sans', sans-serif;
+    }
+    #butt1 {
+        left: 50px;
+        top: 20px;
+    }
+    #butt2 {
+        left: 150px;
+        top: 20px;
+    }
+    #butt3 {
+        left: 250px;
+        top: 20px;
+    }
+    .image {
+        position: absolute;
+        left: 30px;
+        top: 70px;
+        padding: 10px;
+        border: 1px white solid;
+    }
+    #header {
+        position: absolute;
+        top: 50px;
+        left: 300px;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #butt {
+        position: absolute;
+        left: 320px;
+        top: 175px;
+        width: 125px;
+        height: 20px;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: none;
+        border: 1px lightgreen solid;
+        color: lightgreen;
+        background-color: green;
+    }
+}
+@media screen and (max-width: 799px) {
+    div.header {
+        position: absolute;
+        height: 50px;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        background-color: black;
+    }
+    a.header {
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        font-family: 'Open Sans', sans-serif;
+    }
+    #butt1 {
+        left: 50px;
+        top: 20px;
+    }
+    #butt2 {
+        left: 150px;
+        top: 20px;
+    }
+    #butt3 {
+        left: 250px;
+        top: 20px;
+    }
+    .image {
+        position: absolute;
+        left: 70px;
+        top: 80px;
+        padding: 10px;
+        border: 1px white solid;
+    }
+    #header {
+        position: absolute;
+        top: 305px;
+        left: 100px;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #butt {
+        position: absolute;
+        left: 90px;
+        top: 395px;
+        width: 125px;
+        height: 20px;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: none;
+        border: 1px lightgreen solid;
+        color: lightgreen;
+        background-color: green;
+    }
+}

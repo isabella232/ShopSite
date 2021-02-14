@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ShopSite</title>
+	<link rel="stylesheet" type="text/css" href="css\shop.css">	
+	<link type="image/x-icon" rel="shortcut icon" href="img/favicon.ico">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="https://unpkg.com/vue@2.6.12/dist/vue.js"></script>
+</head>
+<body style="background-color: black">
+	<div class="header">
+	<a href="index.html" class="header" id="butt1">Главная</a>
+	 	<a href="shop.html" class="header" id="butt2">Магазин</a>
+	 	<a href="about.html" class="header" id="butt3">Связь</a>
+		<input type="text" id="search">
+	</div>
+	<div class="content">
+		<div class="tile-2">
+			<img :src="img" id="img-1">
+			<h3 id="header-2">{{header}}</h3>
+			<h4 id="text-2">{{text}}</h4>
+			<a :href="p" class="tile-2"></a>
+		</div>
+		<div class="tile-3">
+			<img :src="img" id="img-2">
+			<h3 id="header-3">{{header}}</h3>
+			<h4 id="text-3">{{text}}</h4>
+			<a :href="p" class="tile-3"></a>
+		</div>
+		<div class="tile-4">
+			<img :src="img" id="img-3">
+			<h3 id="header-4">{{header}}</h3>
+			<h4 id="text-4">{{text}}</h4>
+			<a :href="p" class="tile-4"></a>
+		</div>
+		<div class="tile-5">
+			<img :src="img" id="img-4">
+			<h3 id="header-5">{{header}}</h3>
+			<h4 id="text-5">{{text}}</h4>
+			<a :href="p" class="tile-5"></a>
+		</div>
+		<div class="tile-6">
+			<img :src="img" id="img-5">
+			<h3 id="header-6">{{header}}</h3>
+			<h4 id="text-6">{{text}}</h4>
+			<a :href="p" class="tile-6"></a>
+		</div>
+	</div>
+	<script src="js\shopsearch.js"></script>
+</body>
+</html>

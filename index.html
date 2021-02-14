@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ShopSite</title>
+	<link rel="stylesheet" type="text/css" href="css\style.css">
+	<link type="image/x-icon" rel="shortcut icon" href="img/favicon.ico">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+</head>
+<body>
+	<div class="header">
+	 	<a href="index.html" class="header" id="butt1">Главная</a>
+	 	<a href="shop.html" class="header" id="butt2">Магазин</a>
+	 	<a href="about.html" class="header" id="butt3">Связь</a>
+	</div>
+	<div class="content">
+		<div class="tile-1">
+			<a href="about.html" class="tile-1"></a>
+			<h3 id="header-1">Welcome</h3>
+			<p id="text-1">Добро пожаловать на сайт ShopSite.  <span id="textline">Очень оригинально</span><br>
+			Если у вас есть вопроосы, кликайте на текст!</p>
+		</div>
+		<div class="tile-2">
+			<img :src="image1" id="img-1">
+			<h3 id="header-2">{{header1}}</h3>
+			<h4 id="text-2">{{text1}}</h4>
+			<a v-bind:href="p1" class="tile-2"></a>
+		</div>
+		<div class="tile-3">
+			<img :src="image2" id="img-2">
+			<h3 id="header-3">{{header2}}</h3>
+			<h4 id="text-3">{{text2}}</h4>
+			<a v-bind:href="p2" class="tile-3"></a>
+		</div>
+	</div>
+	<script src="js\Main.js"></script>
+</body>
+</html>
